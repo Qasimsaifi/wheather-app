@@ -28,7 +28,7 @@ const Tempapp = () => {
         <p className='notFound'>No data found</p>
       ) : (
         <div className="info">
-          <Image width="90" height="90" src="/favicon.ico"></Image>
+          <Image className='img' width="90" height="90" src="/favicon.ico"></Image>
           <h2 className="location">{search}</h2>
           <h2 className="temp">{city.temp}</h2>
           <p className="tempMinMax">Min Temp {city.temp_min} Max temp {city.temp_max}</p>
