@@ -78,6 +78,7 @@ img {
     margin: 0 auto;
     position: static;
     transform: none;
+    margin-top: 50%;
   }
 
   .inputSearch {
