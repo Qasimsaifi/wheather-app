@@ -18,7 +18,7 @@ const Tempapp = () => {
   return (
     <div className='container'>
       <div className="box">
-        <input type="text" className="inputSearch" onChange={(event) => {
+        <input type="search" className="inputSearch" onChange={(event) => {
           setSearch(event.target.value)
         }} />
 
