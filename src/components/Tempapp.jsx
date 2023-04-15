@@ -30,8 +30,8 @@ const Tempapp = () => {
         <div className="info">
           <Image className='img' width="90" height="90" src="/favicon.ico"></Image>
           <h2 className="location">{search}</h2>
-          <h2 className="temp">{city.temp}</h2>
-          <p className="tempMinMax">Min Temp {city.temp_min} Max temp {city.temp_max}</p>
+          <h2 className="temp">{Math.ceil(city.temp - 273.15)}</h2>
+          <p className="tempMinMax">Min Temp{Math.ceil(city.temp_min - 273.15)} Max temp {Math.floor(city.temp_max - 273.15)}</p>
         </div>
 
       )
