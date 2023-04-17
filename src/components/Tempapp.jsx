@@ -16,6 +16,8 @@ const Tempapp = () => {
   }, [search])
 
   return (
+<>
+<h1 className='main-heading'>❤Coding Chaska❤</h1>
     <div className='container'>
       <div className="box">
         <input type="search" className="inputSearch" onChange={(event) => {
@@ -38,6 +40,7 @@ const Tempapp = () => {
 
       }
     </div>
+</>
   )
 }
 
